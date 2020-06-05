@@ -1,0 +1,7 @@
+---
+- name: Install Secure-Shell-package
+  apt:
+    name: [ 'openssh-server' ]
+    state: present
+    update_cache: no
+  become: yes

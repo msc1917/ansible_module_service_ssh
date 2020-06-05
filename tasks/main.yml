@@ -1,0 +1,6 @@
+---
+- name: Install SSH
+  include_tasks: install.yml
+  
+- name: Setup SSH
+  include_tasks: setup.yml
